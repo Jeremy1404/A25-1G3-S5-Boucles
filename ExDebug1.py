@@ -62,4 +62,5 @@ if __name__ == "__main__":
 
     # TODO : Pour les 3 ordi
         # TODO : Utilliser la fonction et afficher le resultat
-    print(environnement_optimal(temp, poussiere, humidite))
+    else:
+        print(environnement_optimal(temp, poussiere, humidite))
