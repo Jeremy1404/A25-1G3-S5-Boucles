@@ -43,8 +43,24 @@ def environnement_optimal(temp, poussiere, humidite):
 
 
 if __name__ == "__main__":
-    # print(environnement_optimal(25, "faible", 40))
-    temp = int(input("Entrer le température : "))
-    poussiere = input("Entrer le niveau de poussière : ")
-    humidite = float(input("Entrer le niveau d'humidité : "))
+    # TODO : Créer 3 listes
+
+    # TODO : Pour 3 ordinateur
+        # TODO : Demander temp, poussière, humidité
+        # TODO : Mettres les 3 valeurs dans leurs listes
+
+while
+    try:
+        temp = int(input("Entrer le température : "))
+        poussiere = input("Entrer le niveau de poussière : ")
+        humidite = float(input("Entrer le niveau d'humidité : "))
+
+    except ValueError:
+        print("Votre réponse doit être un chiffre !")
+    except NameError:
+        print("Veuillez entrer une réponse")
+
+
+    # TODO : Pour les 3 ordi
+        # TODO : Utilliser la fonction et afficher le resultat
     print(environnement_optimal(temp, poussiere, humidite))
