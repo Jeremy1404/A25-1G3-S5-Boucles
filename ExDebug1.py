@@ -49,7 +49,6 @@ if __name__ == "__main__":
         # TODO : Demander temp, poussière, humidité
         # TODO : Mettres les 3 valeurs dans leurs listes
 
-while
     try:
         temp = int(input("Entrer le température : "))
         poussiere = input("Entrer le niveau de poussière : ")
